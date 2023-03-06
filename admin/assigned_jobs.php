@@ -12,7 +12,7 @@
         <div class="bg-body-light">
           <div class="content content-full">
             <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
-              <h1 class="flex-grow-1 fs-3 fw-semibold my-2 my-sm-3">Manage Assigned Jobs</h1>
+              <h1 class="flex-grow-1 fs-3 fw-semibold my-2 my-sm-3">Manage Jobs Assignments</h1>
              <!--  <nav class="flex-shrink-0 my-2 my-sm-0 ms-sm-3" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">Tables</li>
@@ -30,7 +30,7 @@
           <div class="block block-rounded">
             <div class="block-header block-header-default">
               <h3 class="block-title">
-                Assigned Jobs
+                Job Assignments
               </h3>
             </div>
             <div class="block-content block-content-full">
@@ -53,43 +53,43 @@
                   <tbody>
                     <tr>
                       <td class="text-center">1</td>
-                      <td class="fw-semibold">Accepted</td>
-                      <td class="fw-semibold">Jack</td>
-                      <td class="fw-semibold">02-15-2023</td>
-                      <td class="fw-semibold">12:00 AM</td>
-                      <td class="fw-semibold">11:59 PM</td>
+                      <td >In Process</td>
+                      <td >Jack</td>
+                      <td >02-15-2023</td>
+                      <td >12:00 AM</td>
+                      <td >11:59 PM</td>
                       <td>Tampa </td>
                       <td>Florida </td>
                       <td>
-                        <a href="#"><i class="fa fa-1x fa-pencil"></i></a>
+                        <a href="job_assignment_details.php"><i class="fa fa-1x fa-eye"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
                       </td>
                     </tr>
                     <tr>
                       <td class="text-center">2</td>
-                      <td class="fw-semibold">Decline</td>
-                      <td class="fw-semibold">David Fuller</td>
-                      <td class="fw-semibold">02-15-2023</td>
-                      <td class="fw-semibold">12:00 AM</td>
-                      <td class="fw-semibold">11:59 PM</td>
+                      <td >Assigned</td>
+                      <td >David Fuller</td>
+                      <td >02-15-2023</td>
+                      <td >12:00 AM</td>
+                      <td >11:59 PM</td>
                       <td>Tampa </td>
                       <td>Florida </td>
                       <td>
-                        <a href="#"><i class="fa fa-1x fa-pencil"></i></a>
+                        <a href="job_assignment_details.php"><i class="fa fa-1x fa-eye"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
                       </td>
                     </tr>
                     <tr>
                       <td class="text-center">3</td>
-                      <td class="fw-semibold">Pending</td>
-                      <td class="fw-semibold">Barbara Scott</td>
-                      <td class="fw-semibold">02-15-2023</td>
-                      <td class="fw-semibold">12:00 AM</td>
-                      <td class="fw-semibold">11:59 PM</td>
+                      <td >Pending</td>
+                      <td >Barbara Scott</td>
+                      <td >02-15-2023</td>
+                      <td >12:00 AM</td>
+                      <td >11:59 PM</td>
                       <td>Tampa </td>
                       <td>Florida </td>
                       <td>
-                        <a href="#"><i class="fa fa-1x fa-pencil"></i></a>
+                        <a href="job_assignment_details.php"><i class="fa fa-1x fa-eye"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
                       </td>
                     </tr>

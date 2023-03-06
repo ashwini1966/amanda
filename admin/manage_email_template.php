@@ -49,8 +49,8 @@
                   <tbody>
                     <tr>
                       <td class="text-center">1</td>
-                      <td class="fw-semibold">We Have Your Response Recorded!</td>
-                      <td class="fw-semibold">Response Already Recorded</td>
+                      <td >We Have Your Response Recorded!</td>
+                      <td >Response Already Recorded</td>
                       <td>
                         <a href="edit_email_template.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -58,8 +58,8 @@
                     </tr>
                     <tr>
                       <td class="text-center">2</td>
-                      <td class="fw-semibold">We Have Your Response Recorded!</td>
-                      <td class="fw-semibold">Response Already Recorded</td>
+                      <td >We Have Your Response Recorded!</td>
+                      <td >Response Already Recorded</td>
                       <td>
                         <a href="edit_email_template.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -67,8 +67,8 @@
                     </tr>
                     <tr>
                       <td class="text-center">3</td>
-                      <td class="fw-semibold">We Have Your Response Recorded!</td>
-                      <td class="fw-semibold">Response Already Recorded</td>
+                      <td >We Have Your Response Recorded!</td>
+                      <td >Response Already Recorded</td>
                       <td>
                         <a href="edit_email_template.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
