@@ -63,6 +63,7 @@
                       <td>
                         <a href="edit_job.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
+                        <a href="job_details.php"><i class="fa fa-1x fa-eye"></i></a>
                       </td>
                     </tr>
                     <tr>
@@ -77,6 +78,7 @@
                       <td>
                         <a href="edit_job.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
+                        <a href="job_details.php"><i class="fa fa-1x fa-eye"></i></a>
                       </td>
                     </tr>
                     <tr>
@@ -91,6 +93,7 @@
                       <td>
                         <a href="edit_job.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
+                        <a href="job_details.php"><i class="fa fa-1x fa-eye"></i></a>
                       </td>
                     </tr>
                   </tbody>
