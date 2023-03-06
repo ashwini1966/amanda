@@ -32,6 +32,40 @@
               <h3 class="block-title">
                 Jobs
               </h3>
+              <div class="block-options">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-alt-secondary" id="dropdown-ecom-filters" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Filters
+                    <i class="fa fa-angle-down ms-1"></i>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdown-ecom-filters">
+                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                      Pending..
+                      <span class="badge bg-primary rounded-pill">78</span>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                      Processing
+                      <span class="badge bg-black-50 rounded-pill">12</span>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                      For Delivery
+                      <span class="badge bg-black-50 rounded-pill">20</span>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                      Canceled
+                      <span class="badge bg-black-50 rounded-pill">5</span>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                      Delivered
+                      <span class="badge bg-black-50 rounded-pill">280</span>
+                    </a>
+                    <a class="dropdown-item d-flex align-items-center justify-content-between" href="javascript:void(0)">
+                      All
+                      <span class="badge bg-black-50 rounded-pill">19k</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="block-content block-content-full">
               <!-- DataTables init on table by adding .js-dataTable-responsive class, functionality is initialized in js/pages/be_tables_datatables.min.js which was auto compiled from _js/pages/be_tables_datatables.js -->
@@ -53,11 +87,11 @@
                   <tbody>
                     <tr>
                       <td class="text-center">1</td>
-                      <td class="fw-semibold">Accepted</td>
-                      <td class="fw-semibold">Jack</td>
-                      <td class="fw-semibold">02-15-2023</td>
-                      <td class="fw-semibold">12:00 AM</td>
-                      <td class="fw-semibold">11:59 PM</td>
+                      <td >Accepted</td>
+                      <td >Jack</td>
+                      <td >02-15-2023</td>
+                      <td >12:00 AM</td>
+                      <td >11:59 PM</td>
                       <td>Tampa </td>
                       <td>Florida </td>
                       <td>
@@ -68,11 +102,11 @@
                     </tr>
                     <tr>
                       <td class="text-center">2</td>
-                      <td class="fw-semibold">Decline</td>
-                      <td class="fw-semibold">David Fuller</td>
-                      <td class="fw-semibold">02-15-2023</td>
-                      <td class="fw-semibold">12:00 AM</td>
-                      <td class="fw-semibold">11:59 PM</td>
+                      <td >Decline</td>
+                      <td >David Fuller</td>
+                      <td >02-15-2023</td>
+                      <td >12:00 AM</td>
+                      <td >11:59 PM</td>
                       <td>Tampa </td>
                       <td>Florida </td>
                       <td>
@@ -83,11 +117,11 @@
                     </tr>
                     <tr>
                       <td class="text-center">3</td>
-                      <td class="fw-semibold">Pending</td>
-                      <td class="fw-semibold">Barbara Scott</td>
-                      <td class="fw-semibold">02-15-2023</td>
-                      <td class="fw-semibold">12:00 AM</td>
-                      <td class="fw-semibold">11:59 PM</td>
+                      <td >Pending</td>
+                      <td >Barbara Scott</td>
+                      <td >02-15-2023</td>
+                      <td >12:00 AM</td>
+                      <td >11:59 PM</td>
                       <td>Tampa </td>
                       <td>Florida </td>
                       <td>

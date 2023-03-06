@@ -51,11 +51,11 @@
                   <tbody>
                     <tr>
                       <td class="text-center">1</td>
-                      <td class="fw-semibold">568</td>
-                      <td class="fw-semibold">Jack Estrada</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >568</td>
+                      <td >Jack Estrada</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -63,11 +63,11 @@
                     </tr>
                     <tr>
                       <td class="text-center">2</td>
-                      <td class="fw-semibold">588</td>
-                      <td class="fw-semibold">David Fuller</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >588</td>
+                      <td >David Fuller</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -75,11 +75,11 @@
                     </tr>
                     <tr>
                       <td class="text-center">3</td>
-                      <td class="fw-semibold">868</td>
-                      <td class="fw-semibold">Barbara Scott</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >868</td>
+                      <td >Barbara Scott</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -87,11 +87,11 @@
                     </tr>
                     <tr>
                       <td class="text-center">4</td>
-                      <td class="fw-semibold">568</td>
-                      <td class="fw-semibold">Betty Kelley</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >568</td>
+                      <td >Betty Kelley</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -99,11 +99,11 @@
                     </tr>
                     <tr>
                       <td class="text-center">5</td>
-                      <td class="fw-semibold">588</td>
-                      <td class="fw-semibold">Alice Moore</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >588</td>
+                      <td >Alice Moore</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>

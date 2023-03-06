@@ -52,12 +52,12 @@
                   <tbody>
                     <tr>
                       <td class="text-center">1</td>
-                      <td class="fw-semibold">Jack Estrada</td>
-                      <td class="fw-semibold">Jack@gmail.com</td>
-                      <td class="fw-semibold">8989556585</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >Jack Estrada</td>
+                      <td >Jack@gmail.com</td>
+                      <td >8989556585</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -65,12 +65,12 @@
                     </tr>
                     <tr>
                       <td class="text-center">2</td>
-                      <td class="fw-semibold">David Fuller</td>
-                      <td class="fw-semibold">David@gmail.com</td>
-                      <td class="fw-semibold">95656565555</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >David Fuller</td>
+                      <td >David@gmail.com</td>
+                      <td >95656565555</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -78,12 +78,12 @@
                     </tr>
                     <tr>
                       <td class="text-center">3</td>
-                      <td class="fw-semibold">Barbara Scott</td>
-                      <td class="fw-semibold">Barbara@gmail.com</td>
-                      <td class="fw-semibold">5858585666</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >Barbara Scott</td>
+                      <td >Barbara@gmail.com</td>
+                      <td >5858585666</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -91,12 +91,12 @@
                     </tr>
                     <tr>
                       <td class="text-center">4</td>
-                      <td class="fw-semibold">Betty Kelley</td>
-                      <td class="fw-semibold">Betty@gmail.com</td>
-                      <td class="fw-semibold">895+65+65+5</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >Betty Kelley</td>
+                      <td >Betty@gmail.com</td>
+                      <td >895+65+65+5</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
@@ -104,12 +104,12 @@
                     </tr>
                     <tr>
                       <td class="text-center">5</td>
-                      <td class="fw-semibold">Alice Moore</td>
-                      <td class="fw-semibold">Alice@gmail.com</td>
-                      <td class="fw-semibold">8985965885</td>
-                      <td class="fw-semibold">Indore </td>
-                      <td class="fw-semibold">MP </td>
-                      <td class="fw-semibold">456021 </td>
+                      <td >Alice Moore</td>
+                      <td >Alice@gmail.com</td>
+                      <td >8985965885</td>
+                      <td >Indore </td>
+                      <td >MP </td>
+                      <td >456021 </td>
                       <td>
                         <!-- <a href="#"><i class="fa fa-1x fa-pencil"></i></a> -->
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
