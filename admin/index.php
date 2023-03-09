@@ -1,4 +1,13 @@
-<?php include('common/head.php');?>
+<?php 
+    include('common/head.php');
+    include('functions/login_class.php');
+
+    $obj = new Login();
+
+    if(isset($_POST['submit'])){
+      $obj->user_login($_POST);
+    }
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -65,10 +74,10 @@
                   <!-- Sign In Form -->
                   <!-- jQuery Validation (.js-validation-signin class is initialized in js/pages/op_auth_signin.min.js which was auto compiled from _js/pages/op_auth_signin.js) -->
                   <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
-                  <form class="js-validation-signin" action="dashboard.php" method="POST">
+                  <form class="js-validation-signin" action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
                     <div class="mb-4">
                       <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" id="login-username" name="login-username" placeholder="Username">
+                        <input type="email" class="form-control" id="login-username" name="login-email" placeholder="Username">
                         <span class="input-group-text">
                           <i class="fa fa-user-circle"></i>
                         </span>
@@ -92,13 +101,13 @@
                       </div>
                     </div>
                     <div class="text-center mb-4">
-                      <button type="submit" class="btn btn-hero btn-primary">
+                      <button type="submit" name="submit" class="btn btn-hero btn-primary">
                         <i class="fa fa-fw fa-sign-in-alt opacity-50 me-1"></i> Sign In
                       </button>
                     </div>
-                    <div class="text-center mb-4">
-                        <a href="<?php echo base_url('modules/login/user_registration.php')?>"> Sign up</a>
-                    </div>
+                    <!-- <div class="text-center mb-4">
+                        <a href="<?php// echo base_url('modules/login/user_registration.php')?>"> Sign up</a>
+                    </div> -->
                   </form>
                   <!-- END Sign In Form -->
                 </div>
