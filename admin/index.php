@@ -2,10 +2,11 @@
     include('common/head.php');
     include('functions/login_class.php');
 
-    $obj = new Login();
+    $login = new Login();
 
     if(isset($_POST['submit'])){
-      $obj->user_login($_POST);
+      $result = $login->user_login($_POST);
+      
     }
 ?>
 <!doctype html>
@@ -69,11 +70,15 @@
                     </a>
                     <p class="text-uppercase fw-bold fs-sm text-muted">Sign In</p>
                   </div>
-                  <!-- END Header -->
+                  <?php 
+                  // if(isset($result['error'])){
+                  //   echo 'ddd'.$result['error'];
+                  // }else{
+                  //   echo $result['error'];
+                  // }
+                  ?>
+                  <b class="error"><?php echo isset($result['error']) ? $result['error']  :'' ?></b>
 
-                  <!-- Sign In Form -->
-                  <!-- jQuery Validation (.js-validation-signin class is initialized in js/pages/op_auth_signin.min.js which was auto compiled from _js/pages/op_auth_signin.js) -->
-                  <!-- For more info and examples you can check out https://github.com/jzaefferer/jquery-validation -->
                   <form class="js-validation-signin" action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
                     <div class="mb-4">
                       <div class="input-group input-group-lg">
@@ -83,6 +88,7 @@
                         </span>
                       </div>
                     </div>
+                    
                     <div class="mb-4">
                       <div class="input-group input-group-lg">
                         <input type="password" class="form-control" id="login-password" name="login-password" placeholder="Password">

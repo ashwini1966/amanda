@@ -1,4 +1,6 @@
-
+<?php 
+include('functions/common_functions.php');
+?>
 <?php include('common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
@@ -13,9 +15,9 @@
   <!-- Quick Overview -->
   <div class="row items-push">
     <div class="col-6 col-lg-3">
-      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="manage_clients.php">
+      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="<?php echo base_url('manage_clients.php') ?>">
         <div class="block-content py-5">
-          <div class="fs-3 fw-semibold text-primary mb-1">78</div>
+          <div class="fs-3 fw-semibold text-primary mb-1"><?php echo getAllUsers(); ?></div>
           <p class="fw-semibold fs-sm text-muted text-uppercase mb-0">
             Total Clients
           </p>
@@ -23,9 +25,9 @@
       </a>
     </div>
     <div class="col-6 col-lg-3">
-      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="manage_interpreter.php">
+      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="<?php echo base_url('manage_interpreter.php') ?>">
         <div class="block-content py-5">
-          <div class="fs-3 fw-semibold text-primary mb-1">126</div>
+          <div class="fs-3 fw-semibold text-primary mb-1"><?php echo getAllInterpreter(); ?></div>
           <p class="fw-semibold fs-sm text-muted text-uppercase mb-0">
             Total Interpreters
           </p>
@@ -33,9 +35,9 @@
       </a>
     </div>
     <div class="col-6 col-lg-3">
-      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="manage_jobs.php">
+      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="<?php echo base_url('modules/job/manage_jobs.php') ?>">
         <div class="block-content py-5">
-          <div class="fs-3 fw-semibold text-success mb-1">35</div>
+          <div class="fs-3 fw-semibold text-success mb-1"><?php echo getCompletedJobs(); ?></div>
           <p class="fw-semibold fs-sm text-muted text-uppercase mb-0">
             Completed Bookings
           </p>
@@ -43,9 +45,9 @@
       </a>
     </div>
     <div class="col-6 col-lg-3">
-      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="manage_jobs.php">
+      <a class="block block-rounded block-link-shadow text-center h-100 mb-0" href="<?php echo base_url('modules/job/manage_jobs.php') ?>">
         <div class="block-content py-5">
-          <div class="fs-3 fw-semibold text-warning mb-1">123</div>
+          <div class="fs-3 fw-semibold text-warning mb-1"><?php echo getAllJobs(); ?></div>
           <p class="fw-semibold fs-sm text-muted text-uppercase mb-0">
             All Bookings
           </p>

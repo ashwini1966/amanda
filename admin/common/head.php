@@ -1,16 +1,19 @@
 <?php 
-
-
-if (!defined('base_url'))
-{
+if (!defined('base_url')){
   define("base_url", "http://localhost/amanda/admin/");
 }
-if (!function_exists('base_url')) 
-{
+
+if (!function_exists('base_url')) {
   function base_url($url){
     return base_url.$url;
   }
 } 
+// form present in header.php file
+if(isset($_POST['logout'])){
+  session_start();
+  session_destroy();
+  echo "<script>location='index.php'</script>";
+}
 ?>
 <head>
     <meta charset="utf-8">
