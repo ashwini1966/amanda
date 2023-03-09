@@ -1,9 +1,9 @@
     
-<?php include('common/sidebar.php'); ?>
+<?php include('../../common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
 <!-- Header -->
-<?php include('common/header.php'); ?>
+<?php include('../../common/header.php'); ?>
 <!-- END Header -->
 
       <!-- Main Container -->
@@ -12,7 +12,7 @@
         <div class="bg-body-light">
           <div class="content content-full">
             <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
-              <h1 class="flex-grow-1 fs-3 fw-semibold my-2 my-sm-3">Email Template</h1>
+              <h1 class="flex-grow-1 fs-3 fw-semibold my-2 my-sm-3">SMS Template</h1>
              <!--  <nav class="flex-shrink-0 my-2 my-sm-0 ms-sm-3" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item">Tables</li>
@@ -30,9 +30,9 @@
           <div class="block block-rounded">
             <div class="block-header block-header-default">
               <h3 class="block-title">
-                Email Template
+                SMS Template
               </h3>
-              <a href="add_email_template.php" class="btn btn-primary">Add Email Template</a>
+              <a href="add_sms_template.php" class="btn btn-primary">Add SMS Template</a>
             </div>
             <div class="block-content block-content-full">
               <!-- DataTables init on table by adding .js-dataTable-responsive class, functionality is initialized in js/pages/be_tables_datatables.min.js which was auto compiled from _js/pages/be_tables_datatables.js -->
@@ -52,7 +52,7 @@
                       <td >We Have Your Response Recorded!</td>
                       <td >Response Already Recorded</td>
                       <td>
-                        <a href="edit_email_template.php"><i class="fa fa-1x fa-pencil"></i></a>
+                        <a href="edit_sms_template.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
                       </td>
                     </tr>
@@ -61,7 +61,7 @@
                       <td >We Have Your Response Recorded!</td>
                       <td >Response Already Recorded</td>
                       <td>
-                        <a href="edit_email_template.php"><i class="fa fa-1x fa-pencil"></i></a>
+                        <a href="edit_sms_template.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
                       </td>
                     </tr>
@@ -70,7 +70,7 @@
                       <td >We Have Your Response Recorded!</td>
                       <td >Response Already Recorded</td>
                       <td>
-                        <a href="edit_email_template.php"><i class="fa fa-1x fa-pencil"></i></a>
+                        <a href="edit_sms_template.php"><i class="fa fa-1x fa-pencil"></i></a>
                         <a href="#"><i class="fa fa-1x fa-trash"></i></a>
                       </td>
                     </tr>
@@ -86,6 +86,6 @@
       <!-- END Main Container -->
 
 <!-- Footer -->
-<?php include('common/footer.php'); ?>
+<?php include('../../common/footer.php'); ?>
 <!-- END Footer -->
    

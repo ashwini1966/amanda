@@ -1,3 +1,4 @@
+<?php include('common/head.php');?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -94,6 +95,9 @@
                       <button type="submit" class="btn btn-hero btn-primary">
                         <i class="fa fa-fw fa-sign-in-alt opacity-50 me-1"></i> Sign In
                       </button>
+                    </div>
+                    <div class="text-center mb-4">
+                        <a href="<?php echo base_url('modules/login/user_registration.php')?>"> Sign up</a>
                     </div>
                   </form>
                   <!-- END Sign In Form -->

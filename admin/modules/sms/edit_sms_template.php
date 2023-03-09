@@ -1,28 +1,28 @@
     
-<?php include('common/sidebar.php'); ?>
+<?php include('../../common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
 <!-- Header -->
-<?php include('common/header.php'); ?>
+<?php include('../../common/header.php'); ?>
 <!-- END Header -->
 
 <!-- Main Container -->
 <main id="main-container">
 
   <div class="bg-body-light">
-          <div class="content content-full">
-            <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
-              <h1 class="flex-grow-1 fs-3 fw-semibold my-2 my-sm-3">SMS Template</h1>
-              <nav class="flex-shrink-0 my-2 my-sm-0 ms-sm-3" aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="manage_sms_template.php">SMS Template</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Add</li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
-
+          
+<div class="content content-full">
+    <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center">
+      <h1 class="flex-grow-1 fs-3 fw-semibold my-2 my-sm-3">SMS Template</h1>
+      <nav class="flex-shrink-0 my-2 my-sm-0 ms-sm-3" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="manage_sms_template.php">SMS Template</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Edit</li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>
 <!-- Page Content -->
 <div class="content">
   <!-- Quick Overview -->
@@ -32,7 +32,7 @@
       <div class="block">
         <div class="block-header block-header-default">
           <!-- <a class="btn btn-alt-secondary" href="#"> -->
-            <b>Add SMS Template</b>
+            <b>Edit SMS Template</b>
           <!-- </a> -->
           <div class="block-options">
             
@@ -77,6 +77,6 @@
 <!-- END Main Container -->
 
 <!-- Footer -->
-<?php include('common/footer.php'); ?>
+<?php include('../../common/footer.php'); ?>
 <!-- END Footer -->
    

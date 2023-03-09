@@ -1,9 +1,9 @@
     
-<?php include('common/sidebar.php'); ?>
+<?php include('../../common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
 <!-- Header -->
-<?php include('common/header.php'); ?>
+<?php include('../../common/header.php'); ?>
 <!-- END Header -->
 
       <!-- Main Container -->
@@ -205,6 +205,6 @@
       <!-- END Main Container -->
 
 <!-- Footer -->
-<?php include('common/footer.php'); ?>
+<?php include('../../common/footer.php'); ?>
 <!-- END Footer -->
    

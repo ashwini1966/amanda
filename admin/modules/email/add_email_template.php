@@ -1,9 +1,9 @@
     
-<?php include('common/sidebar.php'); ?>
+<?php include('../../common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
 <!-- Header -->
-<?php include('common/header.php'); ?>
+<?php include('../../common/header.php'); ?>
 <!-- END Header -->
 
 <!-- Main Container -->
@@ -16,7 +16,7 @@
               <nav class="flex-shrink-0 my-2 my-sm-0 ms-sm-3" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="manage_email_template.php">Email Template</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">Edit</li>
+                  <li class="breadcrumb-item active" aria-current="page">Add</li>
                 </ol>
               </nav>
             </div>
@@ -32,7 +32,7 @@
       <div class="block">
         <div class="block-header block-header-default">
           <!-- <a class="btn btn-alt-secondary" href="#"> -->
-            <b>Edit Email Template</b>
+            <b>Add Email Template</b>
           <!-- </a> -->
           <div class="block-options">
             
@@ -77,6 +77,6 @@
 <!-- END Main Container -->
 
 <!-- Footer -->
-<?php include('common/footer.php'); ?>
+<?php include('../../common/footer.php'); ?>
 <!-- END Footer -->
    

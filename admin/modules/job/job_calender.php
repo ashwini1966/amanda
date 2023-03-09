@@ -1,11 +1,11 @@
  
-<?php include('common/sidebar.php'); ?>
+<?php include('../../common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
 <!-- Header -->
-<?php include('common/header.php'); ?>
+<?php include('../../common/header.php'); ?>
 <!-- END Header -->
-<link rel="stylesheet" href="assets/js/plugins/fullcalendar/main.min.css">
+<link rel="stylesheet" href="<?php echo base_url('assets/js/plugins/fullcalendar/main.min.css') ?>">
       <!-- Main Container -->
       <main id="main-container">
         <!-- Page Content -->
@@ -92,4 +92,4 @@
       <!-- END Main Container -->
 
 <!-- Footer -->
-<?php include('common/footer.php'); ?>
+<?php include('../../common/footer.php'); ?>

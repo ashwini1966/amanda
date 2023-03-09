@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <?php include('common/head.php'); ?>
+  <?php include('head.php'); ?>
   <body>
   
     <div id="page-container" class="sidebar-o sidebar-dark enable-page-overlay side-scroll page-header-fixed main-content-narrow">
@@ -11,7 +11,7 @@
           <div class="content-header bg-white-5">
             <!-- Logo -->
             <a class="fw-semibold text-white tracking-wide" href="index.php">
-              <img src="./assets/images/logo-top.png" alt="logo" width="110">
+              <img src="<?php echo base_url('./assets/images/logo-top.png') ?>" alt="logo" width="110">
             </a>
             <!-- END Logo -->
 
@@ -50,43 +50,43 @@
           <div class="content-side">
             <ul class="nav-main">
               <li class="nav-main-item">
-                <a class="nav-main-link" href="dashboard.php">
+                <a class="nav-main-link" href="<?php echo base_url('dashboard.php') ?>">
                   <i class="nav-main-link-icon fa fa-location-arrow"></i>
                   <span class="nav-main-link-name">Dashboard</span>
                   <!-- <span class="nav-main-link-badge badge rounded-pill bg-primary">8</span> -->
                 </a>
               </li>
-
+            
               <li class="nav-main-item">
-                <a class="nav-main-link" href="manage_clients.php">
+                <a class="nav-main-link" href="<?php echo base_url('manage_clients.php') ?>">
                   <i class="nav-main-link-icon fa fa-user-friends"></i>
                   <span class="nav-main-link-name">Manage Clients</span>
                 </a>
               </li>
 
               <li class="nav-main-item">
-                <a class="nav-main-link" href="manage_interpreter.php">
+                <a class="nav-main-link" href="<?php echo base_url('manage_interpreter.php') ?>">
                   <i class="nav-main-link-icon fa fa-user-friends"></i>
                   <span class="nav-main-link-name">Manage Interpreters</span>
                 </a>
               </li>
 
               <li class="nav-main-item">
-                <a class="nav-main-link" href="manage_jobs.php">
+                <a class="nav-main-link" href="<?php echo base_url('modules/job/manage_jobs.php') ?>">
                   <i class="nav-main-link-icon fa fa-border-all"></i>
                   <span class="nav-main-link-name">Jobs/Request</span>
                 </a>
               </li>
 
               <li class="nav-main-item">
-                <a class="nav-main-link" href="assigned_jobs.php">
+                <a class="nav-main-link" href="<?php echo base_url('modules/job/assigned_jobs.php') ?>">
                   <i class="nav-main-link-icon fa fa-border-all"></i>
                   <span class="nav-main-link-name">Job Assignments</span>
                 </a>
               </li>
 
               <li class="nav-main-item">
-                <a class="nav-main-link" href="job_calender.php">
+                <a class="nav-main-link" href="<?php echo base_url('modules/job/job_calender.php') ?>">
                   <i class="nav-main-link-icon far fa-2x fa-calendar-days"></i>
                   <span class="nav-main-link-name">Job Schedule</span>
                 </a>
@@ -99,12 +99,12 @@
                 </a>
                 <ul class="nav-main-submenu">
                   <li class="nav-main-item">
-                    <a class="nav-main-link" href="manage_sms_template.php">
+                    <a class="nav-main-link" href="<?php echo base_url('modules/sms/manage_sms_template.php') ?>">
                       <span class="nav-main-link-name">SMS Templates</span>
                     </a>
                   </li>
                   <li class="nav-main-item">
-                    <a class="nav-main-link" href="manage_email_template.php">
+                    <a class="nav-main-link" href="<?php echo base_url('modules/email/manage_email_template.php') ?>">
                       <span class="nav-main-link-name">Email Templates</span>
                     </a>
                   </li>
@@ -112,7 +112,7 @@
               </li>
 
               <li class="nav-main-item">
-                <a class="nav-main-link" href="settings.php">
+                <a class="nav-main-link" href="<?php echo base_url('settings.php') ?>">
                   <i class="nav-main-link-icon si si-settings fa-2x"></i>
                   <span class="nav-main-link-name">Settings</span>
                 </a>
