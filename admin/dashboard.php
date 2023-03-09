@@ -1,4 +1,4 @@
-    
+
 <?php include('common/sidebar.php'); ?>
 <!-- END Sidebar -->
 
